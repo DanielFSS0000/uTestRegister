@@ -16,14 +16,12 @@ public class UtestPage extends PageObject {
     public static final Target EMAIL = Target.the("Email")
             .located(By.id("email"));
     public static final Target DATE_MONTH = Target.the("Mes de Cumpleaños")
-            .located(By.xpath("//*[@id=\"birthMonth\"]/option[7]"));
+            .located(By.xpath("//*[@id=\"birthMonth\"]"));
     public static final Target DATE_DAY = Target.the("Dia de cumpleaños")
-            .located(By.xpath("//*[@id=\"birthDay\"]/option[21]"));
+            .located(By.xpath("//*[@id=\"birthDay\"]"));
     public static final Target DATE_YEAR = Target.the("Año de nacimiento")
-            .located(By.xpath("//*[@id=\"birthYear\"]/option[9]"));
-    public static final Target BTN_NEXT = Target.the("Boton Next Location")
+            .located(By.xpath("//*[@id=\"birthYear\"]"));
+    public static final Target BTN_NEXT = Target.the("Botton Next Location")
             .located(By.xpath("//*[@id=\"regs_container\"]/div/div[2]/div/div[2]/div/form/div[2]/a"));
-    public static final Target BTN_DEVICES = Target.the("Boton Next DEVICES")
-            .located(By.xpath("//*[@id=\"regs_container\"]/div/div[2]/div/div[2]/div/form/div[2]/div/a"));
 
 }
